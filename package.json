@@ -1,0 +1,30 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "main": "todo.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "scripts": {
+    "babel": "babel lib --out-dir dist --presets=@babel/preset-env"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-cli": "^6.26.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/landzbej/todolist_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/landzbej/todolist_project/issues"
+  },
+  "homepage": "https://github.com/landzbej/todolist_project#readme",
+  "description": ""
+}
